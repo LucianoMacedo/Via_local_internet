@@ -1,0 +1,22 @@
+body{
+    font-family: League Spartan", sans-serif";
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.background-black{
+    background-color: black;
+}
+.background-black-space{
+    width: 1200px;
+    margin: 0 auto;
+}
+#navbarNav{
+    justify-content: center;
+}
+.navbar .nav-link,
+.navbar .nav-link.active,
+.navbar .navbar-brand {
+  color: white !important;
+}
