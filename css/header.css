@@ -1,6 +1,12 @@
 body{
     font-family: League Spartan", sans-serif";
 }
+p{
+    margin: 0;
+}
+.number>i{
+    margin-right: 10px!important;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -13,10 +19,12 @@ body{
     margin: 0 auto;
 }
 #navbarNav{
-    justify-content: center;
+    justify-content: end;
 }
 .navbar .nav-link,
 .navbar .nav-link.active,
 .navbar .navbar-brand {
-  color: white !important;
+  color: white!important;
+  font-size: 20px;
+  font-weight: 600;
 }

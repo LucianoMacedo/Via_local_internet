@@ -1,0 +1,13 @@
+.Beneficios-title{
+ text-transform: uppercase;
+ width: 70%;
+}
+ .bg-silver {
+    background-color: silver;
+    height: 100%;
+    padding: 2rem;
+  }
+  /* Garante que a row tenha altura mínima do conteúdo */
+  .full-height-row {
+    min-height: 100%;
+  }

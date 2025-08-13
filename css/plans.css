@@ -1,0 +1,37 @@
+
+.card-body {
+  border: 1px solid transparent; /* Borda de 1px */
+  border-radius: 8px; /* Opcional */
+  background: 
+    linear-gradient(#fff, #fff) padding-box, /* Fundo branco */
+    linear-gradient(135deg, #ff8a00, #ffd200) border-box; /* Gradiente na borda */
+}
+.card-title{
+    text-transform: uppercase;
+}
+.card-text {
+    color: #ff8a00;
+
+}
+.btn-gradient-border {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(135deg, #ff8a00, #ffd200) border-box;
+  color: #ff8a00; /* Cor do texto */
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-gradient-border:hover {
+  background: linear-gradient(135deg, #ff8a00, #ffd200);
+  color: white;
+  border: 1px solid transparent;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(0); /* Deixa preto */
+  background-color: transparent !important; /* Remove fundo se tiver */
+  /* Ou pode usar uma imagem SVG preta customizada, mas o filter funciona */
+}
