@@ -1,13 +1,28 @@
+.Beneficios-banner{
+  background-color: black;
+}
 .Beneficios-title{
  text-transform: uppercase;
  width: 70%;
 }
- .bg-silver {
-    background-color: silver;
-    height: 100%;
-    padding: 2rem;
-  }
+
   /* Garante que a row tenha altura mínima do conteúdo */
   .full-height-row {
     min-height: 100%;
   }
+  .icon-circle {
+  background-color: var(--bs-orange);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.25rem;
+}
+.Beneficios-icon-title{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+}

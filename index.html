@@ -63,12 +63,10 @@
   <!-- Section Planos -->
   <section id="planos" class="py-5 ">
     <div class="container">
-      <h2 class="text-center mb-2 league-spartan-Bold">PLANOS DE INTERNET</h2>
+      <h2 class="text-center mb-2 league-spartan-bold">PLANOS DE INTERNET</h2>
       <h3 class="text-center league-spartan-Regular">Conecte-se ao que há de melhor em internet fibra óptica!</h3>
-
       <div id="planosCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-
           <div class="carousel-item active">
             <div class="row">
               <!-- Card 1 -->
@@ -116,7 +114,6 @@
               </div>
             </div>
           </div>
-
           <div class="carousel-item">
             <div class="row">
               <div class="col-md-4">
@@ -148,9 +145,7 @@
               </div>
             </div>
           </div>
-
         </div>
-
         <!-- Controles -->
         <button class="carousel-control-prev" type="button" data-bs-target="#planosCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon"
@@ -166,39 +161,80 @@
     </div>
   </section>
   <!-- Section Beneficios -->
-  <section class="container py-5 Beneficios">
-    <div class="row align-items-center">
-      <!-- Coluna 1: Texto -->
-      <div class="col-md-6 mb-4 mb-md-0">
-        <h2 class="Beneficios-title league-spartan-Bold ">Internet que conecta você ao futuro</h2>
-      </div>
-      <!-- Coluna 2: Ícones com texto -->
-      <div class="col-md-6 bg-silver py-4">
-        <div class="row text-center">
-          <div class="col-4 d-flex flex-column align-items-center mb-4">
-            <i class="fa-solid fa-wifi fa-2x mb-2"></i>
-            <span>Wi-fi Premium</span>
+  <section class="Beneficios-banner">
+    <section class="container py-5 Beneficios">
+      <div class="row align-items-center">
+        <!-- Coluna 1: Texto -->
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h2 class="Beneficios-title league-spartan-Bold text-white ">Internet que conecta você ao futuro</h2>
+        </div>
+        <!-- Coluna 2: Ícones com texto -->
+        <div class="col-md-7 bg-silver py-4 position-relative">
+          <div class="row text-center">
+            <div class="col-4 d-flex flex-column align-items-center mb-4">
+              <div class="rounded-circle d-flex justify-content-center align-items-center"
+                style="width:60px;height:60px;background-color:#fd7e14;color:white;">
+                <i class="fa-solid fa-wifi fa-lg"></i>
+              </div>
+              <span class="Beneficios-icon-title mt-2 league-spartan-Bold text-white">Wi-fi Premium</span>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center mb-4">
+              <div class="rounded-circle d-flex justify-content-center align-items-center mb-2"
+                style="width:60px;height:60px;background-color:#fd7e14;color:white;">
+                <i class="fa-solid fa-screwdriver-wrench fa-lg"></i>
+              </div>
+              <span class="Beneficios-icon-title mt-2 league-spartan-Bold text-white">Instalação grátis</span>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center mb-4">
+              <div class="rounded-circle d-flex justify-content-center align-items-center mb-2"
+                style="width:60px;height:60px;background-color:#fd7e14;color:white;">
+                <i class="fa-solid fa-headset fa-lg"></i>
+              </div>
+              <span class="Beneficios-icon-title league-spartan-Bold text-white">Suporte Rápido</span>
+            </div>
+            <!-- Se quiser mais ícones, só adicionar mais divs col-4 aqui -->
           </div>
-          <div class="col-4 d-flex flex-column align-items-center mb-4">
-            <i class="fa-solid fa-screwdriver-wrench fa-2x mb-2"></i>
-            <span>Instalação grátis e rápida</span>
-          </div>
-          <div class="col-4 d-flex flex-column align-items-center mb-4">
-            <i class="fa-solid fa-headset fa-2x"></i>
-            <span class="league-spartan-Bold">Suporte dedicado 24/7</span>
-          </div>
-          <!-- Se quiser mais ícones, só adicionar mais divs col-4 aqui -->
         </div>
       </div>
+    </section>
+  </section>
+  <!-- Seção Onde nos encontrar -->
+<section class="mapa" style="background-color: white; padding: 40px 0;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Texto -->
+      <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+        <h2 class="league-spartan-Bold" style="color: #ff7a00;">Onde nos encontrar</h2>
+        <p style="font-size: 1.1rem;">
+          Atendemos as cidades de <strong>Maracajá</strong> e <strong>Balneário Arroio do Silva</strong>, oferecendo internet de alta qualidade para sua casa ou empresa.
+        </p>
+      </div>
+      
+      <!-- Mapa -->
+      <div class="col-lg-6 col-12">
+        <div id="map" style="width:100%; height:400px; border-radius: 8px; overflow: hidden;"></div>
+      </div>
+      
     </div>
-  </section>
-  <section style="background-color: black;">
-    aqui
-  </section>
+  </div>
+</section>
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+<!-- Leaflet JS -->
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin="">
+</script>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
+    <script src="js/maps.js" ></script>
 </body>
-
 </html>
